@@ -5,7 +5,6 @@
 - [x] 封装为类
 
 ### 知识点
-1. [七牛云PythonSDK文档](https://developer.qiniu.com/kodo/sdk/1242/python)
 #### sys.argv[]的用法
 对图片拖拽所使用的sys.argv[]的测试  
 简单测试实例  
