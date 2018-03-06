@@ -4,8 +4,8 @@
 - [x] 将图片拖拽到图标上，实现将图片上传到七牛云，并返回图片外链。
 - [x] 封装为类
 
-### 知识点
-#### sys.argv[]的用法
+## 知识点
+### sys.argv[]的用法
 对图片拖拽所使用的sys.argv[]的测试  
 简单测试实例  
 ```python
@@ -24,7 +24,7 @@ sys.argv[1:] 为所有输入文件的绝对路径组成的列表
 ![argv2.png](http://okt3vzszu.bkt.clouddn.com/img/argv2)
 
 
-#### sys.exit()和os._exit()的选择
+### sys.exit()和os._exit()的选择
 
 **os._exit()** 会直接将python程序终止，之后的所有代码都不会继续执行。
 
@@ -34,7 +34,7 @@ sys.argv[1:] 为所有输入文件的绝对路径组成的列表
 
 > sys.exit()的退出比较优雅，调用后会引发SystemExit异常，可以捕获此异常做清理工作。os._exit()直接将python解释器退出，余下的语句不会执行。
 
-### 参考资料
+## 参考资料
 [七牛云PythonSDK](https://developer.qiniu.com/kodo/sdk/1242/python)  
 [七牛云PythonAPI源码](https://github.com/qiniu/python-sdk)
 
