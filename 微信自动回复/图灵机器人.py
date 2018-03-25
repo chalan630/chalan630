@@ -9,7 +9,7 @@ import json
 def text_reply(msg):
     info = msg['Text'].encode('UTF-8')
     url = 'http://www.tuling123.com/openapi/api'
-    data = {"key":"815419f186d74f93a04061afef632783","info":info,"userid":"chalan630"}
+    data = {"key":"apikey","info":info,"userid":"username"}
     data = urllib.parse.urlencode(data).encode(encoding='UTF8')
     request = urllib.request.Request(url, data)
     response = urllib.request.urlopen(request)
